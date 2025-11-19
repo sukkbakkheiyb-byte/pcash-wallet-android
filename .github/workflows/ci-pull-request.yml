@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: set up JDK 17
-        uses: actions/setup-java@v3
+        uses:https://github.com/piratecash/pcash-wallet-android.git actions/setup-java@v3
         with:
           java-version: '17'
           distribution: 'temurin'
